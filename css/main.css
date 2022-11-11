@@ -1,0 +1,465 @@
+/* roboto-300 - latin */
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    src: url('./../fonts/roboto2-300.woff2') format('woff2'), /* Super Modern Browsers */
+         url('./../fonts/roboto1-300.woff') format('woff');
+}
+  /* roboto-regular - latin */
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: url('./../fonts/roboto2-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('./../fonts/roboto1-regular.woff') format('woff');
+}
+  /* roboto-500 - latin */
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    src:url('./../fonts/roboto2-500.woff2') format('woff2'), /* Super Modern Browsers */
+         url('./../fonts/roboto1-500.woff') format('woff');
+}
+  /* hind-madurai-regular - latin */
+@font-face {
+    font-family: 'Hind Madurai';
+    font-style: normal;
+    font-weight: 400;
+    src: url('./../fonts/hind2-regular.woff2 ') format('woff2'), /* Super Modern Browsers */
+         url('./../fonts/hind1-regular.woff') format('woff');
+  }
+  /* hind-madurai-500 - latin */
+@font-face {
+    font-family: 'Hind Madurai';
+    font-style: normal;
+    font-weight: 500;
+    src: url('./../fonts/hind2-500.woff2') format('woff2'), /* Super Modern Browsers */
+         url('./../fonts/hind1-500.woff') format('woff');
+}
+  /* hind-madurai-700 - latin */
+@font-face {
+    font-family: 'Hind Madurai';
+    font-style: normal;
+    font-weight: 700;
+    src: url('./../fonts/hind1-700.woff') format('woff'), /* Super Modern Browsers */
+         url('./../fonts/hind2-700.woff2') format('woff2');
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-family: 'Roboto', "Arial", sans-serif;
+}
+
+a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+p {
+  display: flex;
+  font-family: 'Roboto',sans-serif;
+}
+
+div {
+  display: flex;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+}
+
+li {
+  display: flex;
+}
+
+.conteiner {
+  text-align: center;
+  padding: 0;
+  max-width: 1165px;
+  margin: 0 auto;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+/* head */
+.head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items:center;
+  justify-content: center;
+  background-color: #F2CEDA;
+}
+
+.head1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #F2CEDA;
+  width: 1560px;
+  padding:0px 20px 0px 20px ;
+}
+
+.head_top {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  width: 1200px;
+}
+
+.head_menu {
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+}
+
+.head_menu_list {
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+}
+
+.head_menu_item {
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+  margin-right: 39px;
+}
+
+.head_menu_link {
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+}
+
+.head_menut {
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+}
+
+.head_buy {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #D23166;
+  border-radius: 5px;
+  width: 165px;
+  height: 49px;
+}
+
+.head_buy_link {
+  color: white;
+}
+
+.head_buyt {
+}
+
+.head_hero {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  width: 1200px;
+  height: 742px;
+  background-image: url('./../img/headimg.png');
+  background-repeat: no-repeat;
+  background-position:right;
+}
+
+.head_rek {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
+  width: 665px;
+  height:300px;
+}
+
+.head_rektop {
+  margin-bottom: 6px;
+}
+
+.head_rekmain {
+  display: flex;
+  width: 665px;
+  font-weight: 500;
+  font-size: 53px;
+  margin-bottom: 35px;
+}
+
+.head_rektext {
+  display: flex;
+  width: 523px;
+  margin-bottom: 50px;
+}
+
+/* main */
+
+.main {
+}
+
+.main1 {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1200px;
+}
+
+/* top */
+.sect_top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 1200px;
+}
+
+.sect_top_menu {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.sect_top_list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.sect_top_item {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-right: 39px;
+  width: 250px;
+  height: 200px;
+}
+
+.sect_top_img {
+  display: flex;
+  margin-bottom: 24px;
+}
+
+.sect_top_name {
+  display: flex;
+  justify-content: center;
+  width: 250px;
+  font-weight: 700;
+  font-size: 20px;
+  margin-bottom: 9px;
+}
+
+.sect_top_text {
+  display: flex;
+  text-align: center;
+}
+
+/* middle top */
+
+.sect_middle_top {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  width: 1600px;
+  background-color: #F8EDF0;
+
+}
+
+.sect_mtop_sec {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  width: 1200px;
+}
+
+.sect_mtop_info {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  width: 442px;
+}
+.sect_mtop_h {
+}
+.head_rektext {
+}
+
+/* middle */
+
+.products_wrapper {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.products_heading {
+  font-family: 'Hind Madurai';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 44.2px;
+  line-height: 61px; 
+  color: #150101;
+  margin-bottom: 64px;
+}
+
+.products_list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.products_item {
+  margin-right: 39px;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  color: #000000;
+  opacity: 0.6;
+}
+
+.products_item:hover {
+  opacity: 1;
+  box-shadow:inset 0 -3px 0 0 #D23166;
+}
+
+.products_item:last-child {
+  margin-right: 0;
+}
+
+.products_item_active {
+  opacity: 1;
+  box-shadow:inset 0 -3px 0 0 #D23166;
+}
+
+.products_ice_list {
+  width: 100%;
+}
+
+.products_ice_item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.products_ice_item_box {
+  max-width: 454px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.products_ice_item:nth-child(2n) .products_ice_item_box {
+  order: -1;
+  align-items: flex-end;
+}
+
+/* footer */
+.foot {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  background-color: black;
+  width: 1600px;
+  height: 381px;
+}
+
+.foot1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 1200px;
+}
+
+.foot_info {
+  display: flex;
+  flex-wrap: wrap;
+  width: 210px;
+  margin-left: 252px;
+  margin-right: 37px;
+}
+
+.foot_infot{
+  display: flex;
+  width: 207px;
+  color: white;
+}
+
+.foot_infofol{
+  width: 90px;
+  color: white;
+  margin-bottom: 8px;
+}
+
+.foot_info_link {
+  display: flex;
+  flex-wrap: wrap;
+  width: 90px;
+}
+
+.foot_info_l {
+  display: flex;
+  justify-content: space-between;
+  width: 90px;
+}
+
+.foot_menu {
+  display: flex;
+  width: 40px;
+  margin: 0;
+  padding: 0;
+  margin-right: 132px;
+}
+
+.foot_menu_list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.foot_menu_item {
+  line-height: 0.5;
+}
+
+.foot_menu_link {
+  color: white;
+  margin-bottom: 10px;
+}
+
+.foot_menut {
+  line-height: 0.5;
+}
+
+.foot_menuinfo {
+  width: 200px;
+}
+
+.foot_subscirbe {
+}
+
+.foot_news {
+  color: white;
+}
+
+.foot_item_input {
+  margin-bottom: 16px;
+}
+
+.foot_info_pay {
+}
+
+.foot_pay_link {
+  margin-right: 15px;
+}
+
+.foot_pay_img {
+}
